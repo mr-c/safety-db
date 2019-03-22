@@ -4,7 +4,7 @@
             "advisory": "acqusition is a package affected by pytosquatting: http://www.nbu.gov.sk/skcsirt-sa-20170909-pypi/",
             "cve": null,
             "id": "pyup.io-34978",
-            "specs": [
+            "specs": [r
                 ">0",
                 "<0"
             ],
@@ -8006,17 +8006,6 @@
                 "<0.7.0"
             ],
             "v": "<0.7.0"
-        }
-    ],
-    "rdflib": [
-        {
-            "advisory": "The CLI tools in RDFLib 4.2.2 can load Python modules from the current working directory, allowing code injection, because \"python -m\" looks in this directory, as demonstrated by rdf2dot.",
-            "cve": "CVE-2019-7653",
-            "id": "pyup.io-36882",
-            "specs": [
-                "==4.2.2"
-            ],
-            "v": "==4.2.2"
         }
     ],
     "recurly": [
